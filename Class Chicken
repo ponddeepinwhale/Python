@@ -1,0 +1,27 @@
+import random
+class Chicken:
+    def __init__(self, name, hunger):
+        self.hunger = 0
+        self.name = input("name")
+    def update(self, chance):
+        self.chance = random.randrange(0, 100)
+        self.hunger += 5
+        if self.hunger < 30:
+            if self.chance == 50:
+                print("bok BOK")
+                return 1
+            else:
+                return 0
+    def feed(self, x):
+        x = int(input("Choose number"))
+        self.hunger -= x
+        print("peck, peck!")
+
+    def pet(self):
+        print("Happy Chicken Noises")
+    def printInfo(self):
+        print(self.name)
+        print(self.hunger)
+
+
+
