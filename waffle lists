@@ -1,0 +1,36 @@
+import random
+
+colors = ["black", "blue", "green", "red", "maroon"]
+print(colors[0])
+print(colors[2])
+print(colors[4])
+colors.append("teal")
+print(colors)
+
+paychecks = [604.54, 550.91, 597.54, 967.31]
+total = 0
+
+for num in paychecks:
+    total += num
+print(total)
+
+foods = []
+
+user = int(input("How many type of foods do you want to pack on your trip to Mars?"))
+
+
+for i in range (user):
+    food = input("Name the type of food")
+    foods.append(food)
+    print(foods)
+    
+
+hmmm = [random.randrange(1, 10)]
+print(min(hmmm))
+print(max(hmmm))
+def checkConsecutive(1):
+    n = len(1) - 1
+    return (sum(np.diff(sorted(1)) == 1) >=n)
+print(hmmm)
+list.sort(reverse=True)
+print(hmmm)
