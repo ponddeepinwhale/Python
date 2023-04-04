@@ -1,0 +1,67 @@
+press = int(input("How much can you bench press?"))
+
+if press < 10:
+    print("Keep practicing and you'll eventually get SWONKILY SWOL")
+if press >=10 and press <= 50:
+    print("You're getting pretty good, huh? Don't get cocky, kid!")
+if press > 50:
+    print("You're MEGA SWOL. John Cena who? I hardly know her.")
+    
+
+for i in range(20, 50, 2):
+    print(i)
+    
+frog = False
+
+while frog != True:
+    print("Ribbit")
+    frog = True
+    
+count = 100
+    
+while count > 50:
+    count -= 5
+    print(count)
+    
+def AVGTwoNums(x,y):
+   return  (x+y)/2
+
+print(AVGTwoNums(8,4))
+
+
+def GiveCompliment(name):
+    print(name, "you look so beautiful today.")
+    
+loop = False
+while loop != True:
+    name = input("Tell me your name.")
+    print(GiveCompliment(name))
+    loop = True#Only here to stop the loop so I can get to the next element, just comment it out if you want the loop to be endless
+    
+    
+Marbles = [4,6,2,9]
+print(Marbles)
+print(Marbles[2])
+
+class fruit:
+    def __init__(self, t, weight, isFresh):
+        self.t = type
+        self.weight = int(input("enter weight"))
+        self.isFresh = True
+    def turnRotten(isFresh):
+        isFresh = False
+        print("The item rots from the core")
+    def printInfo(self):
+        print(type)
+        print(weight)
+        print(isFresh)
+        
+
+fruit1 = type("Pom")
+#Same with my weight variable, it won't even recognize it above
+fruit1.printInfo()#There are the exact same right??? I don't understand why it doesn't like it
+fruit1.turnRotten()
+
+
+
+
