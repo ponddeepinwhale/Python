@@ -1,0 +1,28 @@
+import random
+call = False
+
+def MonsterGen():
+    num = random.randrange(0, 100)
+    if num < 10:
+        print("Witch")
+    elif num < 30:
+        print("Skeleton")
+    elif num < 50:
+        print("Zombie")
+    elif num < 90:
+        print()
+    else:
+        print("No")
+        
+while call != True:
+    print(MonsterGen())
+    call = True
+    
+    
+    
+    
+    
+def AddTwoDivideSix(x, y):
+    return (x+y+2)/6
+
+print(AddTwoDivideSix(5, 2.5))
