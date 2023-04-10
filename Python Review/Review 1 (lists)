@@ -1,0 +1,15 @@
+food = ["chocolate", "pasta", "burgers", "sushi", "pho", "rice", "nerds", "pizza"]
+print(food[2])#third item
+print(food[3])#third slot
+food.append("tacos")#append item
+print(len(food))#print list length
+print(food)#print whole list contents
+
+list = []
+
+while list != "q" or list != "quit":
+    pets = input("What is the name of your pet?")
+    list.append(pets)
+    
+list.sort()
+print(list)
