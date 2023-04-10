@@ -1,0 +1,16 @@
+for i in range(-20, 40, 5):
+    print(i)
+    
+
+num = 50
+while num != 0:
+    num -= 10
+    print(num)
+    
+quit = False
+while quit != True:
+    cookie = input("Would you like a cookie?")
+    if cookie == "yes" or cookie == "Yes":
+        print("Here's a cookie")
+    else:
+        break
