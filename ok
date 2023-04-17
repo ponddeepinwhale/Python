@@ -1,0 +1,22 @@
+import random
+
+
+def bubble(list):
+    list = []
+    n = len(list)
+    
+    for i in range(0,11):
+        list.append(random.randrange(0, 100))
+        already_sorted = True
+    
+    
+        for j in range(0,11):
+            if list[i] > list[i+1]:
+                list[i], list[i+1] = list[i+1], list[i]
+                already_sorted = False
+            
+        if already_sorted:
+            break
+    return list
+
+print(list)
